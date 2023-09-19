@@ -14,7 +14,7 @@ export default function Location({title, location, googleUrl, start, end, imageU
           <div className='main--location--description'>
             <div className='description--header'>
               <FontAwesomeIcon icon={faLocationDot} size="xs" style={{color: "#f55a5a",}} />
-              <h6 className='header--country'>{location.toUppercase()}</h6>
+              <h6 className='header--country'>{location.toUpperCase()}</h6>
               <a href={googleUrl} className='google--link'>View on Google Maps</a>
             </div>
             <h2 className="description--place">{title}</h2>
