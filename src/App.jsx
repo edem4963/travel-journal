@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons'
+import Header from './component/header'
 import './App.css'
 
 function App() {
@@ -8,10 +9,7 @@ function App() {
 
   return (
     <>
-      <div className='header'>
-          <FontAwesomeIcon icon={faEarthAmericas} size="xl" style={{color: "#ffffff",}} />
-          <h4 className='header--title'>My Travel Journal.</h4>
-      </div>
+      <Header />
       <div className='main'>
         <div className='main--location'>
           <div className='main--location--image'>
